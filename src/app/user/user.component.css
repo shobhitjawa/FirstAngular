@@ -1,0 +1,26 @@
+.user-cart{
+    color:dodgerblue;
+    border: 1px gray solid;
+    padding: 15px;
+    scrollbar-highlight-color: orange;
+    background-color:greenyellow;
+    width: fit-content;
+}
+
+.name{
+    color:dodgerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.title{
+    color:dodgerblue;
+    font-style: italic;
+}
+.address{
+    color:dodgerblue;
+    font-style: oblique;
+}
+.phone{
+    color:dodgerblue;
+    border-left: springgreen;
+    padding-left: 5px;
+}

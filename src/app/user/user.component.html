@@ -1,0 +1,20 @@
+           <div class="user-cart">
+        <p>address-cart works!</p>
+        <p>Entry Number</p>
+        {{eno}}
+        <h1>{{userName}}</h1>
+        <h2 class="name">{{user.name}}</h2>
+            <h3 class="title">{{user.title}}</h3>
+            <button (click)="toggle()">Expand / Collapse</button>
+           <div *ngIf="!isCollapsed">
+        <p class="address">{{user.address}}</p>
+<div class="phone" *ngIf="user.phone.length > 0 ">
+        <p>Phone numbers</p>
+        <p *ngFor="let number of user.phone">{{number}}</p>
+        </div>
+        </div>
+        </div>
+        <hr>
+
+        <input type="text" [(ngModel)]="inputText">
+        {{inputText}}

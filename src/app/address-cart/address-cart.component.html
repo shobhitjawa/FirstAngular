@@ -1,0 +1,26 @@
+<body bgcolor="cyan">
+<p>address-cart works!</p>
+<h1>{{userName}}</h1>
+<h2>{{user.name}}</h2>
+<h3>{{user.title}}</h3>
+<p>{{user.address}}</p>
+<div *ngIf="user.phone.length > 0 ">
+<p>Phone numbers</p>
+<p *ngFor="let number of user.phone">{{number}}</p>
+</div>
+<p *ngFor="let bot of mat">{{bot}}</p>
+<hr>
+<h1>{{userName}}</h1>
+<h2>{{user.name}}</h2>
+<h3>{{user.title}}</h3>
+<p>{{user.address}}</p>
+<div *ngIf="user.phone.length > 0 " >
+<p>Phone numbers</p>
+<p *ngFor="let ct of user1.phone">{{ct}}</p>
+</div>
+<hr>
+<h1>{{userName}}</h1>
+<h2>{{name}}</h2>
+<h3>{{title}}</h3>
+<p>{{address}}</p>
+<hr>
